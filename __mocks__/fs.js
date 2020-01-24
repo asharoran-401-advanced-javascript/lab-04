@@ -1,4 +1,5 @@
-/* eslint-disable no-undef */
+
+// eslint-disable-next-line strict
 'use strict';
 
 // eslint-disable-next-line no-undef
