@@ -5,6 +5,7 @@
 ## Links and Resources
  * (sPR) : [https://github.com/asharoran-401-advanced-javascript/lab-04/pull/1]
 * (ci/cd) : [https://github.com/asharoran-401-advanced-javascript/lab-04/actions]
+* heruko : [https://data-moduling.herokuapp.com/]
 PORT - 3000
 * How to initialize/run your application (where applicable)
 - npm start
