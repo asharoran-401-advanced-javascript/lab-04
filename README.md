@@ -10,6 +10,7 @@ npm start
 nodemon
 * Tests
 npm test
+npm run test 
 * UML
 image : []
 

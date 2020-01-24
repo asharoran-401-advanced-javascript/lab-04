@@ -57,7 +57,7 @@ describe(' Prodaucts Module' , () =>{
     };
     return products.get(obj)
       .then( record =>{
-        return products.update(record.category_id , obj)
+        return products.update(record._id , obj)
           .then( product =>{
             Object.keys(obj).forEach( key =>{
               expect(product[key]).toEqual(obj[key]);
@@ -74,7 +74,7 @@ describe(' Prodaucts Module' , () =>{
     };
     return products.get(obj)
       .then( record =>{
-        return products.delete(record.category_id);
+        return products.delete(record._id);
       });
   });
 });
