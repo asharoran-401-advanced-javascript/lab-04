@@ -2,7 +2,7 @@
 // eslint-disable-next-line strict
 'use strict';
 
-const DataModel = require('../memory-data-model.js');
+const DataModel = require('../models/file-data-model.js');
 
 // eslint-disable-next-line no-unused-vars
 class Product extends DataModel{

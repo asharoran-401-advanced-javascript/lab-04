@@ -2,7 +2,7 @@
 // eslint-disable-next-line strict
 'use strict';
 
-const Product = require('../categories/products.js');
+const Product = require('../products/products.js');
 
 // this.schema = {
 //     category_id : { require : true},
